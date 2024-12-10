@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Button } from "./ui/button"
 export default function OurProduct() {
   return (
-    <div className="flex flex-col items-center justify-center w-full">
+    <div className="flex flex-col items-center justify-center w-full ">
       <div className="flex items-center">
         <h1 className="font-Poppins text-[40px] font-bold text-center mt-10">Our Products</h1>
         </div>

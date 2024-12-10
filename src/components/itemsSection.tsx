@@ -2,13 +2,12 @@
 import Image from "next/image";
 export default function ItemsSection() {
   return (
-    <div className="flex flex-col w-full mt-10 justify-center items-center">
-      <div className=" ">
+    <div className="flex flex-col w-full mt-10 justify-center items-center overflow-hidden">
+      <div className=" flex flex-col items-center justify-center  ">
         <h4 className="font-Poppins font-bold text-[32px] text-[#333333]">
-          {" "}
           Browse The Range
         </h4>
-        <p className="font-Poppins font-normal textt-center text-center text-[20px] text-[#666666] ">
+        <p className="font-Poppins font-normal  text-center text-[16px] sm:text-[16px] md:text-[18px] lg:text-[20px] text-[#666666] ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>

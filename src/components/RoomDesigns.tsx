@@ -3,12 +3,13 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 export default function RoomDesignSection() {
   return (
-    <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row items-center  w-full lg:h-[670px] bg-[#FCF8F3] mt-16 gap-[24px] ">
-      <div className="flex flex-col items-start text-center lg:text-left lg:ml-[100px] ml-[100px]">
-        <h3 className="font-Poppins foont-bold w-[422px] text-[40px] text-[#3A3A3A]">
+    <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row items-center  w-full h-auto lg:h-[670px] bg-[#FCF8F3] mt-16 gap-[24px] overflow-hidden ">
+      {/* New Dsign Collection detail */}
+      <div className="flex flex-col items-center lg:items-start text-center lg:text-left lg:ml-[100px] ml-0">
+        <h3 className="font-Poppins foont-bold w-full sm:w-full md:w-[422px] lg:w-[422px] text-[28px] sm:text-[32px] md:text-[38] lg:text-[40px] text-[#3A3A3A]">
           50+ Beautiful rooms inspiration
         </h3>
-        <p className="font-Poppins font-medium text-[16px] text-[#616161] w-[368px]">
+        <p className="font-Poppins font-medium text-[16px] text-[#616161] w-full sm:w-full md:w-[368] lg:w-[368px]">
           Our designer already made a lot of beautiful prototipe of rooms that
           inspire you
         </p>
@@ -17,6 +18,7 @@ export default function RoomDesignSection() {
           Explore More
         </Button>
       </div>
+      {/* New items  */}
       <div className="flex w-full  md:w-auto lg:w-auto h-auto gap-4 justify-center">
         <Image
           src={"/images/design1.png"}

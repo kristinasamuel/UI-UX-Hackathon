@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className="flex flex-row items-center justify-center w-full h-[100px] bg-[#FFFFFF]">
+    <header className="flex flex-row items-center justify-center w-full h-[100px] bg-[#FFFFFF] overflow-hidden">
       <div className="flex items-center justify-between w-full max-w-[1286px] mx-auto px-4">
         <div className="flex items-center">
           <Image
