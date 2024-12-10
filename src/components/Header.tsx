@@ -65,6 +65,8 @@ export default function Header() {
           <Link href={"/"}> <li>Home</li> </Link> 
            <Link href={"/shop"}><li>Shop</li> </Link>
            <Link href={"/blog"}><li>Blog</li> </Link>
+          <Link href={"cart"}> <li>Cart</li></Link>
+          <Link href={"/shop/singleProduct"}> <li>Products</li></Link>
           <Link href={"contact"}> <li>Contact</li></Link>
           </ul>
         </div>

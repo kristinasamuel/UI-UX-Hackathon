@@ -334,37 +334,7 @@ export default function ShopPage() {
           </h1>
         </div>
       </div>
-      {/* single product detail  */}
-      <div className="flex items-center justify-center mt-5 gap-4">
-  {/* Link 1 */}
-  <div className="flex items-center justify-center w-[240px] h-[50px] rounded-[12px] bg-[#FFEFD5] shadow-lg hover:shadow-xl transition-shadow duration-300">
-    <ul className="w-full">
-      <li>
-        <Link
-          href="/shop/singleProduct"
-          className="font-Poppins font-semibold text-[#333333] text-[20px] block text-center py-2 rounded-[12px] hover:bg-[#FFDAB9] transition-colors duration-300"
-        >
-          Product Detail
-        </Link>
-      </li>
-    </ul>
-  </div>
-
-  {/* Link 2 */}
-  <div className="flex items-center justify-center w-[240px] h-[50px] rounded-[12px] bg-[#E7F9E1] shadow-lg hover:shadow-xl transition-shadow duration-300">
-    <ul className="w-full">
-      <li>
-        <Link
-          href="/cart"
-          className="font-Poppins font-semibold text-[#333333] text-[20px] block text-center py-2 rounded-[12px] hover:bg-[#D3F3CB] transition-colors duration-300"
-        >
-          Cart
-        </Link>
-      </li>
-    </ul>
-  </div>
-</div>
-      {/* warranty section  */}
+      {/*Use warranty section  */}
       <div>
         <Warranty />
       </div>
