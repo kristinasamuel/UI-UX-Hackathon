@@ -7,7 +7,7 @@ import { FaSearch } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 export default function BlogPage() {
   return (
-    <div className="flex flex-col items-center w-full min-h-screen justify-center overflow-hidden">
+    <div className="flex flex-col items-center w-full justify-center overflow-hidden">
       {/* Detail of the page Active */}
       <div className="w-full h-[316px] bg-cover bg-center flex items-center justify-center "
         style={{ backgroundImage: "url('/images/Image 22.png')" }}>
@@ -79,7 +79,7 @@ export default function BlogPage() {
                 {" "}
                 Going all-in with millennial design
               </h3>
-              <p className="font-Poppins font-normal text-[15px] w-full lg:w-[820px] lg:text-left mt-2 lg:mt-4 text-[#9F9F9F] ">
+              <p className="font-Poppins font-normal text-[15px] w-full lg:w-[820px] lg:text-left mt-2 lg:mt-4 text-[#9F9F9F] p-2 lg:p-0 ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus
                 mauris vitae ultricies leo integer malesuada nunc. In nulla
@@ -150,7 +150,7 @@ export default function BlogPage() {
               <h3 className="font-Poppins font-medium text-[20px] lg:text-[30px] text-[#000000]">
                 Exploring new ways of decorating
               </h3>
-              <p className="font-Poppins font-normal text-[15px] w-[820px] mt-2 lg:mt-4 text-[#9F9F9F]">
+              <p className="font-Poppins font-normal text-[15px] w-full lg:w-[820px] mt-2 lg:mt-4 text-[#9F9F9F] p-2 lg:p-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus
                 mauris vitae ultricies leo integer malesuada nunc. In nulla
@@ -221,7 +221,7 @@ export default function BlogPage() {
               <h3 className="font-Poppins font-medium  text-[20px] lg:text-[30px] text-[#000000]">
                 Handmade pieces that took time to make
               </h3>
-              <p className="font-Poppins font-normal text-[15px] w-full lg:w-[820px] mt-3 lg:mt-4 text-[#9F9F9F]">
+              <p className="font-Poppins font-normal text-[15px] w-full lg:w-[820px] mt-3 lg:mt-4 text-[#9F9F9F] p-2 lg:p-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus
                 mauris vitae ultricies leo integer malesuada nunc. In nulla

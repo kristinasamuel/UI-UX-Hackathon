@@ -2,7 +2,7 @@
 import Image from "next/image";
 export default function NewDesignsSection() {
   return (
-    <div className="w-full h-full mt-16 overflow-hidden">
+    <div className="w-full mt-16 overflow-hidden">
       {/* Mian heading of the section */}
       <div className="flex flex-col items-center">
         <h3 className="font-poppins font-bold text-[20px] text-center text-[#616161]">
@@ -17,7 +17,7 @@ export default function NewDesignsSection() {
   {/* First Row: 5 Images in one line */}
   <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-4 mt-8">
     
-    <div className="w-full max-w-[274px]">
+    <div className="w-full">
       <Image
         src="/images/design 1.png"
         alt="design"
@@ -26,16 +26,16 @@ export default function NewDesignsSection() {
         className="w-full h-auto"
       />
     </div>
-    <div className="w-full max-w-[451px]">
+    <div className="w-full">
       <Image
-        src="/images/image 38.png"
+        src="/images/Image 38.png"
         alt="design"
         width={451}
         height={312}
         className="w-full h-auto"
       />
     </div>
-    <div className="w-full max-w-[295px]">
+    <div className="w-full">
       <Image
         src="/images/design 3.png"
         alt="design"
@@ -44,7 +44,7 @@ export default function NewDesignsSection() {
         className="w-full h-auto"
       />
     </div>
-    <div className="w-full max-w-[290px]">
+    <div className="w-full">
       <Image
         src="/images/image 43.png"
         alt="design"
@@ -53,7 +53,7 @@ export default function NewDesignsSection() {
         className="w-full h-auto"
       />
     </div>
-    <div className="w-full max-w-[420px]">
+    <div className="w-full ">
       <Image
         src="/images/design2.png"
         alt="design"

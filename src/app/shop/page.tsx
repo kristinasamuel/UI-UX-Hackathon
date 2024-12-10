@@ -1,13 +1,16 @@
 // Home /Shop Page
 import Warranty from "@/components/warranty";
+import Link from "next/link";
 import Image from "next/image";
 import { IoIosArrowForward } from "react-icons/io";
 export default function ShopPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       {/* Page details  */}
-      <div className="w-full  h-[316px] bg-cover bg-center flex items-center justify-center "
-        style={{ backgroundImage: "url('/images/Image 22.png')" }}>
+      <div
+        className="w-full  h-[316px] bg-cover bg-center flex items-center justify-center "
+        style={{ backgroundImage: "url('/images/Image 22.png')" }}
+      >
         <div className="flex flex-col  items-center justify-center">
           <Image src={"/images/logo.png"} alt="logo" width={77} height={77} />
           <p className="font-Poppins font-medium text-[48px] text-[#000000]">
@@ -24,9 +27,10 @@ export default function ShopPage() {
           </div>
         </div>
       </div>
-      <div className="lg:flex items-center justify-between  w-full bg-[#F9F1E7] h-[100px] hidden sm:hidded md:flex ">
-        {/* left content Detail, logo */}
-        <div className="flex flex-row  items-center gap-4 ml-[98px] ">
+
+      <div className="lg:flex items-center justify-between w-full bg-[#F9F1E7] h-[100px] hidden md:flex ">
+        {/* Left Content page detail  detail */}
+        <div className="flex items-center gap-4 ml-[98px]">
           <Image
             src={"/images/system-1.png"}
             alt="logo"
@@ -36,42 +40,41 @@ export default function ShopPage() {
           <p className="font-Poppins font-normal text-[20px] text-[#000000]">
             Filter
           </p>
-
-          <Image src={"/images/grid.png"} alt="logo" height={20} width={20} />
-          <Image src={"/images/view.png"} alt="logo" height={20} width={20} />
+          <Image src={"/images/grid.png"} alt="grid" height={20} width={20} />
+          <Image src={"/images/view.png"} alt="view" height={20} width={20} />
           <Image
             src={"/images/line 5.png"}
-            alt="logo"
+            alt="line"
             height={20}
             width={1}
-            className="w-[1px] h-auto border-2  border-solid border-[#9F9F9F]"
+            className="w-[1px] h-auto border-2 border-solid border-[#9F9F9F]"
           />
           <p className="font-Poppins font-normal text-[16px] text-[#000000]">
             Showing 1-16 of 32 results
           </p>
         </div>
-        {/*  Right content */}
-        <div className="flex items-center gap-4 mr-[98px] mt-4 w-full justify-center">
+
+        {/* Right Content */}
+        <div className="flex items-center gap-4 mr-[98px]">
           <h3 className="font-Poppins font-normal text-[20px] text-[#000000]">
             Show
           </h3>
           <div className="flex items-center justify-center bg-[#FFFFFF] w-[55px] h-[55px]">
-            <p className="font-Poppins font-normal text-[20px] text-[#9F9F9F] ">
+            <p className="font-Poppins font-normal text-[20px] text-[#9F9F9F]">
               16
             </p>
           </div>
           <h3 className="font-Poppins font-normal text-[20px] text-[#000000]">
-            Short by
+            Sort by
           </h3>
-
           <div className="flex items-center justify-center w-[188px] h-[55px] bg-[#FFFFFF]">
-            <p className="font-Poppins font-normal text-[#9F9F9F]  text-[20px]">
+            <p className="font-Poppins font-normal text-[#9F9F9F] text-[20px]">
               Default
             </p>
           </div>
         </div>
       </div>
-{/* New products detail  */}
+      {/* New products detail  */}
       <div className="grid grid-col-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-col-4  gap-6 mt-16 ">
         {/* image 1 */}
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7] ">
@@ -308,7 +311,7 @@ export default function ShopPage() {
           </div>
         </div>
       </div>
-{/* number of pages  */}
+      {/* number of pages  */}
       <div className="flex flex-row items-center justify-center w-full lg:w-[392px] h-[60px] mt-14 gap-4 lg:gap-8">
         <div className="flex items-center justify-center w-[60px] h-[60px] rounded-[10px] bg-[#B88E2F]">
           <h1 className="font-Poppins font-normal text-[#FFFFFF] text-[20px] items-center">
@@ -331,6 +334,36 @@ export default function ShopPage() {
           </h1>
         </div>
       </div>
+      {/* single product detail  */}
+      <div className="flex items-center justify-center mt-5 gap-4">
+  {/* Link 1 */}
+  <div className="flex items-center justify-center w-[240px] h-[50px] rounded-[12px] bg-[#FFEFD5] shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <ul className="w-full">
+      <li>
+        <Link
+          href="/shop/singleProduct1"
+          className="font-Poppins font-semibold text-[#333333] text-[20px] block text-center py-2 rounded-[12px] hover:bg-[#FFDAB9] transition-colors duration-300"
+        >
+          New Product 
+        </Link>
+      </li>
+    </ul>
+  </div>
+
+  {/* Link 2 */}
+  <div className="flex items-center justify-center w-[240px] h-[50px] rounded-[12px] bg-[#E7F9E1] shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <ul className="w-full">
+      <li>
+        <Link
+          href="/cart"
+          className="font-Poppins font-semibold text-[#333333] text-[20px] block text-center py-2 rounded-[12px] hover:bg-[#D3F3CB] transition-colors duration-300"
+        >
+          Cart
+        </Link>
+      </li>
+    </ul>
+  </div>
+</div>
       {/* warranty section  */}
       <div>
         <Warranty />

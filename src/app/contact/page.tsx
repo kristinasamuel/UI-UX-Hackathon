@@ -10,7 +10,7 @@ import Warranty from "@/components/warranty";
 
 export default function ContactPage() {
   return (
-    <div className="flex flex-col  w-full min-h-screen overflow-hidden">
+    <div className="flex flex-col  w-full  overflow-hidden">
       {/* Logo and background image */}
       <div
         className="w-full h-[316px] bg-cover bg-center flex items-center justify-center "
@@ -32,7 +32,7 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
-{/* Main heading of the page */}
+      {/* Main heading of the page */}
       <div className="bg-[#FFFFFF] flex flex-col items-center justify-center  mt-10 lg:mt-20  ">
         <h3 className="font-semibold font-Poppins text-[24px] sm:text-[28px] md:text-[36px] lg:text-[36px]  mt-10 lg:mt-20text-center text-[#000000]">
           Get In Touch With Us
@@ -86,7 +86,7 @@ export default function ContactPage() {
             <Input
               type="Text"
               placeholder="Abc"
-              className="text-[16px] font-Poppins text-[#9F9F9F] mt-5 rounded-[10px] h-[75px] w-[528.75px] border border-solid border-[#9F9F9F] mb-6"
+              className="text-[16px] font-Poppins text-[#9F9F9F] mt-5 rounded-[10px] h-[75px] w-full lg:w-[528.75px] border border-solid border-[#9F9F9F] mb-6"
             />
 
             <Label className="font-Poppins font-medium text-[16px]">
@@ -95,7 +95,7 @@ export default function ContactPage() {
             <Input
               type="Text"
               placeholder="Abc@def.com"
-              className="text-[16px] font-Poppins text-[#9F9F9F] mt-5 rounded-[10px] h-[75px] w-[528.75px] border border-solid border-[#9F9F9F] mb-6"
+              className="text-[16px] font-Poppins text-[#9F9F9F] mt-5 rounded-[10px] h-[75px] w-full lg:w-[528.75px] border border-solid border-[#9F9F9F] mb-6"
             />
 
             <Label className="font-Poppins font-medium text-[16px]">
@@ -104,7 +104,7 @@ export default function ContactPage() {
             <Input
               type="Text"
               placeholder="This is an optional"
-              className="text-[16px] font-Poppins text-[#9F9F9F] mt-5 rounded-[10px] h-[75px] w-[528.75px] border border-solid border-[#9F9F9F] mb-6"
+              className="text-[16px] font-Poppins text-[#9F9F9F] mt-5 rounded-[10px] h-[75px] w-full lg:w-[528.75px] border border-solid border-[#9F9F9F] mb-6"
             />
 
             <Label className="font-Poppins font-medium text-[16px]">
@@ -113,7 +113,7 @@ export default function ContactPage() {
             <Input
               type="Message"
               placeholder="Hi! i'd like to ask about"
-              className="text-[16px] font-Poppins text-[#9F9F9F] mt-5 rounded-[10px] h-[120px] w-[528.75px] border border-solid border-[#9F9F9F] mb-6"
+              className="text-[16px] font-Poppins text-[#9F9F9F] mt-5 rounded-[10px] h-[120px] w-full lg:w-[528.75px] border border-solid border-[#9F9F9F] mb-6"
             />
             <Button className="w-[327px] h-[55px] bg-[#B88E2F] text-[#FFFFFF] hover:bg-[#dab561] mt-6 ">
               Submit
@@ -121,7 +121,7 @@ export default function ContactPage() {
           </form>
         </div>
       </div>
-{/* Use Warranty section as components */}
+      {/* Use Warranty section as components */}
       <div>
         <Warranty />
       </div>

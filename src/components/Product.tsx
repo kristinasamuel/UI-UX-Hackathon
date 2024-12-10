@@ -44,16 +44,11 @@ export default function OurProduct() {
             alt="interior"
             width={285}
             height={301}
-            
-            
             />
             <div className="px-2 mt-4 "> 
             <h3 className="font-Poppins font-semibold text-[24px] text-[#3A3A3A] ">Leviosa</h3>
             <p className="font-Poppins font-medium text-[16px] text-[#898989] mt-2">Stylish cafe chair</p>
-
             <p className="text-[#3A3A3A] font-Poppins font-semibold text-[20px] mt-4">Rp 2.500.000</p>
-               
-           
             </div>
           </div>
           {/* Image 3 */}
@@ -93,15 +88,12 @@ export default function OurProduct() {
             width={48}
             height={48}
             className="absolute top-[16px] right-[16px] z-10"
-            
             />
             <Image
             src={"/images/image 4.png"}
             alt="interior"
             width={285}
             height={301}
-            
-            
             />
             <div className="px-3 mt-4 "> 
             <h3 className="font-Poppins font-semibold text-[24px] text-[#3A3A3A] ">Respira</h3>
@@ -113,18 +105,15 @@ export default function OurProduct() {
             {/* Image 5 */}
           <div className="flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
             <Image
-            src={"/images/lamp.png"}
+            src={"/images/Lamp.png"}
             alt="interior"
             width={285}
-            height={301}
-            
-            
+            height={301}   
             />
             <div className="px-3 mt-4 "> 
             <h3 className="font-Poppins font-semibold text-[24px] text-[#3A3A3A] ">Grifo</h3>
             <p className="font-Poppins font-medium text-[16px] text-[#898989] mt-2"> Night lamp</p>
-            <p className="text-[#3A3A3A] font-Poppins font-semibold text-[20px] mt-2 ">Rp 1.500.000</p>
-               
+            <p className="text-[#3A3A3A] font-Poppins font-semibold text-[20px] mt-2 ">Rp 1.500.000</p>    
             </div>
             </div>
             {/* Image 6 */}
@@ -134,11 +123,10 @@ export default function OurProduct() {
             alt="discount"
             width={48}
             height={48}
-            className="absolute top-[16px] right-[16px] z-10"
-            
+            className="absolute top-[16px] right-[16px] z-10"  
             />
             <Image
-            src={"/images/Images 4.png"}
+            src={"/images/sofa-design.png"}
             alt="interior"
             width={285}
             height={301} 
@@ -157,18 +145,13 @@ export default function OurProduct() {
             alt="discount"
             width={48}
             height={48}
-            className="absolute top-[16px] right-[16px] z-10"
-            
+            className="absolute top-[16px] right-[16px] z-10" 
             />
-            
-            
             <Image
             src={"/images/image 7.png"}
             alt="interior"
             width={285}
             height={301}
-            
-            
             />
             <div className="px-3 mt-4 "> 
             <h3 className="font-Poppins font-semibold text-[24px] text-[#3A3A3A] ">Pingky</h3>
@@ -205,8 +188,7 @@ export default function OurProduct() {
             <p className="text-[#3A3A3A] font-Poppins font-semibold text-[20px] mt-2 ">Rp 500.000</p>
                
             </div>
-            </div>
-            
+            </div>          
           </div>
           <div className="flex items-center justify-center mt-10">
 <Button className="w-[245px] h-[48px] border border-[#B88E2F] hover:bg-gray-300  text-[16px] font-Poppins font-semibold text-[#B88E2F] bg-[#ffffff]"> Show More
