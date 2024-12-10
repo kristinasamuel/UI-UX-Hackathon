@@ -12,7 +12,7 @@ export default function Warranty() {
               height={60}
             />
             <div className="flex flex-col"> 
-              <h3 className="font-Poppins font-semibold text-[25px] text-[#242424] w-full lg:w-[157px]">
+              <h3 className="font-Poppins font-semibold text-[25px] text-[#242424] w-[157px]">
                 High Quality
               </h3>
               <p className="font-Poppins font-medium text-[20px] text-[#898989]">
@@ -44,7 +44,7 @@ export default function Warranty() {
               height={60}
             />
             <div className="flex flex-col">
-              <h3 className="font-Poppins w-full lg:w-[174px] font-semibold text-[25px] text-[#242424]">
+              <h3 className="font-Poppins w-[174px] font-semibold text-[25px] text-[#242424]">
                 Free Shipping
               </h3>
               <p className="font-Poppins font-medium text-[20px] text-[#898989]">
@@ -60,7 +60,7 @@ export default function Warranty() {
               height={60}
             />
             <div className="flex flex-col">
-              <h3 className="font-Poppins font-semibold text-[25px] w-full lg:w-[177px] text-[#242424]">
+              <h3 className="font-Poppins font-semibold text-[25px] w-[177px] text-[#242424]">
                 24 / 7 Support
               </h3>
               <p className="font-Poppins font-medium text-[20px] text-[#898989]">

@@ -5,17 +5,17 @@ export default function NewProductsSection() {
   return (
     <div className="flex flex-col w-full overflow-hidden bg-[#FFFFFF]">
       {/* Active page detail */}
-      <div className="flex items-center w-full bg-[#F9F1E7] h-[100px] space-x-4 ">
+      <div className="flex items-center justify-center lg:justify-start w-full bg-[#F9F1E7] h-[100px] space-x-4 ">
         {/* left content Detail, logo */}
 
-        <p className="font-Poppins font-normal text-[16px] text-[#9F9F9F] ml-[99px]">
+        <p className="font-Poppins font-normal text-[16px] text-[#9F9F9F] ml-0 sm:ml-[40px] lg:ml-[99px]">
           Home
         </p>
-        <IoIosArrowForward className="" />
+        <IoIosArrowForward/>
         <p className="font-Poppins font-normal text-[16px] text-[#9F9F9F]">
           Shop
         </p>
-        <IoIosArrowForward className="" />
+        <IoIosArrowForward/>
 
         <Image
           src={"/images/line 5.png"}
@@ -39,21 +39,21 @@ export default function NewProductsSection() {
             <div className="w-[76px] h-[80px] bg-[#F9F1E7] rouned-[10px] flex items-center justify-center">
               <Image
                 src="/images/sofa set3.png"
-                alt="k"
+                alt="sofa"
                 width={76}
                 height={80}
               />
             </div>
             <div className="w-[76px] h-[80px] bg-[#F9F1E7] rouned-[10px] flex items-center justify-center">
               <Image
-                src="/images/stuart sofa 1.png"
-                alt="k"
+                src="/images/Stuart sofa 1.png"
+                alt="sofa"
                 width={76}
                 height={80}
               />
             </div>
             <div className="w-[76px] h-[80px] bg-[#F9F1E7] rouned-[10px] flex items-center justify-center">
-              <Image src="/images/sofa.png" alt="k" width={76} height={80} />
+              <Image src="/images/sofa.png" alt="sofa" width={76} height={80} />
             </div>
           </div>
           <div className="w-full lg:w-[418px] h-auto lg:h-[500px] bg-[#F9F1E7] ml-10 flex rounded-[10px] items-center justify-center">
