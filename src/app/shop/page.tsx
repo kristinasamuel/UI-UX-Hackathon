@@ -337,21 +337,21 @@ export default function ShopPage() {
       {/* single product detail  */}
       <div className="flex items-center justify-center mt-5 gap-4">
   {/* Link 1 */}
-  <div className="flex items-center justify-center w-full sm:w-[200] lg:w-[240px] h-[50px] rounded-[12px] bg-[#FFEFD5] shadow-lg hover:shadow-xl transition-shadow duration-300">
+  <div className="flex items-center justify-center w-[240px] h-[50px] rounded-[12px] bg-[#FFEFD5] shadow-lg hover:shadow-xl transition-shadow duration-300">
     <ul className="w-full">
       <li>
         <Link
-          href="/shop/singleProduct1"
+          href="/shop/singleProduct"
           className="font-Poppins font-semibold text-[#333333] text-[20px] block text-center py-2 rounded-[12px] hover:bg-[#FFDAB9] transition-colors duration-300"
         >
-          New Product 
+          Product Detail
         </Link>
       </li>
     </ul>
   </div>
 
   {/* Link 2 */}
-  <div className="flex items-center justify-center w-full sm:w-[200px] lg:w-[240px] h-[50px] rounded-[12px] bg-[#E7F9E1] shadow-lg hover:shadow-xl transition-shadow duration-300">
+  <div className="flex items-center justify-center w-[240px] h-[50px] rounded-[12px] bg-[#E7F9E1] shadow-lg hover:shadow-xl transition-shadow duration-300">
     <ul className="w-full">
       <li>
         <Link
