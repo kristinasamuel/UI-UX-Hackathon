@@ -337,7 +337,7 @@ export default function ShopPage() {
       {/* single product detail  */}
       <div className="flex items-center justify-center mt-5 gap-4">
   {/* Link 1 */}
-  <div className="flex items-center justify-center w-[240px] h-[50px] rounded-[12px] bg-[#FFEFD5] shadow-lg hover:shadow-xl transition-shadow duration-300">
+  <div className="flex items-center justify-center w-full sm:w-[200] lg:w-[240px] h-[50px] rounded-[12px] bg-[#FFEFD5] shadow-lg hover:shadow-xl transition-shadow duration-300">
     <ul className="w-full">
       <li>
         <Link
@@ -351,7 +351,7 @@ export default function ShopPage() {
   </div>
 
   {/* Link 2 */}
-  <div className="flex items-center justify-center w-[240px] h-[50px] rounded-[12px] bg-[#E7F9E1] shadow-lg hover:shadow-xl transition-shadow duration-300">
+  <div className="flex items-center justify-center w-full sm:w-[200px] lg:w-[240px] h-[50px] rounded-[12px] bg-[#E7F9E1] shadow-lg hover:shadow-xl transition-shadow duration-300">
     <ul className="w-full">
       <li>
         <Link
