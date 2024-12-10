@@ -14,11 +14,13 @@ export default function HeroSection() {
           <h4 className=" font-bold text-[24px] sm:text-[32px] md:text-[40px] lg:text-[52px] w-full lg:w-[400px] items-center text-[#B88E2F]">
             Discover Our New Collection
           </h4>
-          <p className="font-Poppins font-medium text-[18px] text-[#333333] w-full lg:w-[530px] h-[52px] mt-5 ">
+          <p className="font-Poppins font-medium text-[18px] text-[#333333] w-full lg:w-[530px] h-[52px] mt-2 lg:mt-5 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis.
           </p>
-          <Button className="w-[222px] h-[74px] p-0 lg:p-[25px] bg-[#B88E2F] hover:bg-[#dab561] font-Poppins font-bold text-[14px] sm:text-[14px] lg:text-[16px] text-[#FFFFFF] mt-10">
+          <Button 
+          className="w-[222px] h-[74px] p-0 lg:p-[25px] bg-[#B88E2F] hover:bg-[#dab561] font-Poppins font-bold text-[14px]
+           sm:text-[14px] lg:text-[16px] text-[#FFFFFF] mt-4 sm:mt-4 lg:mt-10">
             BUY Now
           </Button>
         </div>

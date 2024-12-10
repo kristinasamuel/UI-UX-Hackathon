@@ -126,7 +126,7 @@ export default function OurProduct() {
             className="absolute top-[16px] right-[16px] z-10"  
             />
             <Image
-            src={"/images/sofa-design.png"}
+            src={"/images/Images 4.png"}
             alt="interior"
             width={285}
             height={301} 
@@ -148,7 +148,7 @@ export default function OurProduct() {
             className="absolute top-[16px] right-[16px] z-10" 
             />
             <Image
-            src={"/images/image 7.png"}
+            src={"/images/bedset.png"}
             alt="interior"
             width={285}
             height={301}

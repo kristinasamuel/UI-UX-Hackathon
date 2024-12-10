@@ -73,7 +73,7 @@ export default function page() {
 
                 <div className="flex items-center lg:items-start justify-center">
                   <Image
-                    src="/images/Gift.png"
+                    src="/images/gift.png"
                     alt="Gift"
                     width={28}
                     height={28}

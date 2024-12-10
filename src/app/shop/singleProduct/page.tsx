@@ -16,7 +16,6 @@ export default function NewProductsSection() {
           Shop
         </p>
         <IoIosArrowForward/>
-
         <Image
           src={"/images/line 5.png"}
           alt="logo"
