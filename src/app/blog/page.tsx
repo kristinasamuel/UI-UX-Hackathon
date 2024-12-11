@@ -253,9 +253,9 @@ export default function BlogPage() {
             <div className="relative w-full lg:w-[311px] p-4 lg:p-0">
               <Input
                 type="text"
-                className="border border-solid border-[#9F9F9F] w-full lg:w-[313px] h-[58px] rounded-[10px] pl-4 pr-16 md:pr-12 lg:pr-12  text-sm sm:text-base"
+                className="border border-solid border-[#9F9F9F] w-full lg:w-[313px] h-[58px] rounded-[10px] pl-4 pr-12  text-sm sm:text-base"
               />
-              <FaSearch className="absolute top-1/2 right-2 transform -translate-y-1/2 w-[24px] h-[24px]" />
+              <FaSearch className="absolute top-1/2 right-2 transform -translate-y-1/2 w-[24px] h-[24px] mr-6 md:mr-0 lg:mr-0" />
             </div>
             <div className="flex flex-col items-center justify-center w-full h-auto lg:w-[251px] lg:h-[353px] mt-5">
               <div className="flex flex-col items-start">
