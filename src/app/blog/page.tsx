@@ -9,8 +9,10 @@ export default function BlogPage() {
   return (
     <div className="flex flex-col items-center w-full justify-center overflow-hidden">
       {/* Detail of the page Active */}
-      <div className="w-full h-[316px] bg-cover bg-center flex items-center justify-center "
-        style={{ backgroundImage: "url('/images/Image 22.png')" }}>
+      <div
+        className="w-full h-[316px] bg-cover bg-center flex items-center justify-center "
+        style={{ backgroundImage: "url('/images/Image 22.png')" }}
+      >
         <div className="flex flex-col  items-center justify-center">
           <Image src={"/images/logo.png"} alt="logo" width={77} height={77} />
           <p className="font-Poppins font-medium text-[48px] text-[#000000]">
@@ -27,7 +29,7 @@ export default function BlogPage() {
           </div>
         </div>
       </div>
-           <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start mt-10 md:mt-14 lg:mt-32 gap-4 lg:gap-8">
+      <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start mt-10 md:mt-14 lg:mt-32 gap-4 lg:gap-8">
         {/* left side blog post */}
         <div className=" w-full lg:w-[820] h-full  bg-[#FFFFFF] space-y-20">
           {/* image 1 */}
@@ -173,7 +175,7 @@ export default function BlogPage() {
               />
             </div>
           </div>
-         {/* image 3 */}
+          {/* image 3 */}
           <div className="flex flex-col items-center justify-center w-full md:items-start md:justify-start lg:w-[820px] h-full  lg:h-[794px] lg:justify-start lg:items-start">
             <Image
               src={"/images/blogImage3.png"}
@@ -245,15 +247,15 @@ export default function BlogPage() {
             </div>
           </div>
         </div>
-{/* Right side : Category , blog post detail */}
+        {/* Right side : Category , blog post detail */}
         <div className="flex flex-col items-center justify-center ">
           <div className="w-full h-full lg:w-[393px] lg:h-[537px] bg-[#FFFFFF]">
             <div className="relative w-full lg:w-[311px]">
               <Input
                 type="text"
-                className="border border-solid border-[#9F9F9F] w-full lg:w-[313px] h-[58px]  rounded-[10px] pl-4 pr-12"
+                className="border border-solid border-[#9F9F9F] w-full lg:w-[313px] h-[58px] rounded-[10px] pl-4 pr-12 text-sm sm:text-base"
               />
-              <FaSearch className="absolute top-1/2 right-2 transform -translate-y-1/2  w-[24px] h-[24px]" />
+              <FaSearch className="absolute top-1/2 right-2 transform -translate-y-1/2 w-[24px] h-[24px]" />
             </div>
             <div className="flex flex-col items-center justify-center w-full h-auto lg:w-[251px] lg:h-[353px] mt-5">
               <div className="flex flex-col items-start">
