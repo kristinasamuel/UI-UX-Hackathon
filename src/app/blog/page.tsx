@@ -38,7 +38,7 @@ export default function BlogPage() {
               height={500}
               width={817}
             />
-            <div className="flex flex-row items-center justify-center lg:items-start gap-2 lg:gap-4 mt-3">
+            <div className="flex flex-row items-center justify-cente gap-2 lg:gap-4 mt-3">
               <div className="flex gap-2">
                 <Image
                   src={"/images/admin-users.png"}
