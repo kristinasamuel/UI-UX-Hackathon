@@ -6,7 +6,8 @@ export default function HeroSection() {
       className="w-full min-h-screen bg-cover bg-center flex items-center sm:bg-cover md:bg-cover overflow-hidden lg:bg-center"
       style={{ backgroundImage: "url('/images/heroImage.png')" }}>
       {/* detail of the products */}
-      <div className="w-full h-auto sm:w-full sm:h-auto md:w-[643px] md:h-[443px]  lg:md-[643px] lg:h-[443px] rounded-[10px] bg-[#FFF3E3]  p-4 items-start ml-0 lg:ml-[600px]  top-[253px] ">
+      <div className="flex items-center justify-center"> 
+      <div className="w-full h-auto sm:w-full sm:h-auto md:h-[443px] lg:h-[443px] rounded-[10px] bg-[#FFF3E3]  p-4 items-start ml-0 lg:ml-[600px]  top-[253px] ">
         <div className=" flex flex-col p-4 lg:p-10">
           <h3 className="font-Poppins font-semibold text-[16px] text-[#333333]">
             New Arrival
@@ -25,6 +26,7 @@ export default function HeroSection() {
           </Button>
          
         </div>
+      </div>
       </div>
     </section>
   );
