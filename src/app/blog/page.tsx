@@ -250,7 +250,7 @@ export default function BlogPage() {
         {/* Right side : Category , blog post detail */}
         <div className="flex flex-col items-center justify-center ">
           <div className="w-full h-full lg:w-[393px] lg:h-[537px] bg-[#FFFFFF]">
-            <div className="relative w-full lg:w-[311px]">
+            <div className="relative w-full lg:w-[311px] p-4 lg:p-0">
               <Input
                 type="text"
                 className="border border-solid border-[#9F9F9F] w-full lg:w-[313px] h-[58px] rounded-[10px] pl-4 pr-12 text-sm sm:text-base"
