@@ -30,10 +30,10 @@ export default function Header() {
         </div>
            {/* Quick links */}
         <ul className="hidden sm:flex flex-row items-center font-Poppins font-medium text-[16px] space-x-8">
-          <Link href={"/"}> <li>Home </li> </Link> 
-           <Link href={"shop"}><li>Shop</li> </Link>
-           <Link href={"blog"}><li>Blog</li> </Link>
-          <Link href={"contact"}> <li>Contact</li></Link>
+          <Link href={"/"}> <li className="hover:text-gray-500 hover:underline">Home </li> </Link> 
+           <Link href={"/shop"}><li className="hover:text-gray-500 hover:underline">Shop</li> </Link>
+           <Link href={"/blog"}><li className="hover:text-gray-500 hover:underline">Blog</li> </Link>
+          <Link href={"/contact"}> <li className="hover:text-gray-500 hover:underline">Contact</li></Link>
         </ul>
 
         <div className="hidden sm:flex flex-row items-center gap-6">
@@ -62,12 +62,12 @@ export default function Header() {
       {isMenuOpen && (
         <div className="sm:hidden absolute top-[100px] left-0 w-full bg-neutral-400 shadow-lg z-50">
           <ul className="flex flex-col items-center space-y-4 py-4 font-Poppins font-medium text-[16px]">
-          <Link href={"/"}> <li>Home</li> </Link> 
-           <Link href={"/shop"}><li>Shop</li> </Link>
-           <Link href={"/blog"}><li>Blog</li> </Link>
-          <Link href={"cart"}> <li>Cart</li></Link>
-          <Link href={"/shop/singleProduct"}> <li>Products</li></Link>
-          <Link href={"contact"}> <li>Contact</li></Link>
+          <Link href={"/"}> <li className=" hover:underline">Home</li> </Link> 
+           <Link href={"/shop"}><li className="hover:underline">Shop</li> </Link>
+           <Link href={"/blog"}><li className="hover:underline">Blog</li> </Link>
+          <Link href={"cart"}> <li className="hover:underline">Cart</li></Link>
+          <Link href={"/shop/singleProduct"}> <li className="hover:underline">Products</li></Link>
+          <Link href={"/contact"}> <li className="hover:underline">Contact</li></Link>
           </ul>
         </div>
       )}

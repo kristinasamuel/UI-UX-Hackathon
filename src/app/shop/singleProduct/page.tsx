@@ -89,7 +89,7 @@ export default function NewProductsSection() {
               5 Customer Review
             </p>
           </div>
-          <div className="">
+          <div>
             <p className="font-Poppins font-normal text-[13px] text-[#000000] w-[424px] mt-3">
               Setting the bar as one of the loudest speakers in its class, the
               Kilburn is a compact, stout-hearted hero with a well-balanced

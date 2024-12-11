@@ -12,7 +12,7 @@ export default function ItemsSection() {
         </p>
       </div>
       {/* Image 1 Dinning */}
-      <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-center mt-10 gap-6">
+      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-center mt-10 gap-6">
         <div className="flex flex-col items-center justify-center">
           <Image
             src={"/images/image 106.png"}

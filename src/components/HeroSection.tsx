@@ -19,8 +19,8 @@ export default function HeroSection() {
             tellus, luctus nec ullamcorper mattis.
           </p>
           <Button 
-          className="w-[222px] h-[74px] p-0 lg:p-[25px] bg-[#B88E2F] hover:bg-[#dab561] font-Poppins font-bold text-[14px]
-           sm:text-[14px] lg:text-[16px] text-[#FFFFFF] mt-4 sm:mt-4 lg:mt-10">
+          className="w-[180px] h-[50px] lg:w-[222px] lg:h-[74px] p-0  bg-[#B88E2F] hover:bg-[#dab561] font-Poppins font-bold text-[14px]
+           sm:text-[14px] lg:text-[16px] text-[#FFFFFF]mt-10">
             BUY Now
           </Button>
         </div>

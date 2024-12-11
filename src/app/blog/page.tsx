@@ -146,7 +146,7 @@ export default function BlogPage() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center mt-2">
+            <div className="flex flex-col items-center justify-center md:items-start md:justify-start lg:items-start lg:justify-start mt-2">
               <h3 className="font-Poppins font-medium text-[20px] lg:text-[30px] text-[#000000]">
                 Exploring new ways of decorating
               </h3>
@@ -174,7 +174,7 @@ export default function BlogPage() {
             </div>
           </div>
          {/* image 3 */}
-          <div className="flex flex-col items-center justify-center w-full   lg:w-[820px] h-full  lg:h-[794px] lg:justify-start lg:items-start">
+          <div className="flex flex-col items-center justify-center w-full md:items-start md:justify-start lg:w-[820px] h-full  lg:h-[794px] lg:justify-start lg:items-start">
             <Image
               src={"/images/blogImage3.png"}
               alt="post"
@@ -269,7 +269,7 @@ export default function BlogPage() {
                     <p>Design</p>
                     <p>8</p>
                   </div>
-                  <div className="flex space-x-24">
+                  <div className="flex space-x-20">
                     <p>Handmade</p>
                     <p>7</p>
                   </div>
